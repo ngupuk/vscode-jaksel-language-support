@@ -1,0 +1,27 @@
+{
+  "Loop": {
+    "prefix": ["fomo"],
+    "body": ["fomo ${1:variable} endup ${2:last}", "\t$0", "udahan"],
+    "description": "A loop."
+  },
+  "Condition": {
+    "prefix": ["kalo"],
+    "body": ["kalo ${1:condition}", "\t$0", "udahan"],
+    "description": "Decision"
+  },
+  "Function declaration": {
+    "prefix": ["so", "so about"],
+    "body": ["so about ${1:func}", "\t$0", "thats it sih"],
+    "description": "Function declaration"
+  },
+  "Async function declaration": {
+    "prefix": ["overthinking", "ovt"],
+    "body": ["overthinking ${1:func}", "\t$0", "thats it sih"],
+    "description": "Asynchronous function declaration"
+  },
+  "Try Catch": {
+    "prefix": ["trust", "issue"],
+    "body": ["trust issue", "\t$1", "backstab", "\t$0", "udahan"],
+    "description": "Error handling"
+  }
+}

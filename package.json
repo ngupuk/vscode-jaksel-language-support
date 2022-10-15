@@ -1,0 +1,52 @@
+{
+  "name": "jaksel-language-support",
+  "displayName": "Jaksel Language Support",
+  "description": "Syntax highlighter, code snippets, code formatter for Jaksel Language",
+  "publisher": "ngupuk",
+  "version": "0.0.1",
+  "icon": "icon/logo.png",
+  "main": "./extension.js",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "repository": {
+    "url": "https://github.com/ngupuk/vscode-jaksel-language-support"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:jaksel"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "jaksel",
+        "aliases": [
+          "jaksel",
+          "jaksel"
+        ],
+        "extensions": [
+          ".jaksel"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "jaksel",
+        "path": "./syntaxes/jaksel.snippets.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jaksel",
+        "scopeName": "source.jaksel",
+        "path": "./syntaxes/jaksel.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.72.0"
+  }
+}

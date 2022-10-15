@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "jaksel",
+  "scopeName": "source.jaksel",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#operator"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control",
+          "match": "\\b(backstab$|udahan$|kalogak$|yaudahlahya$|trust issue$|fomo|endup|kalo|perhaps|kalogak|toxic)\\b"
+        },
+        {
+          "match": "\\b(overthinking|call|so about) (\\w+)\\b",
+          "captures": {
+            "1": { "name": "variable.language" },
+            "2": { "name": "entity.name.function" }
+          }
+        },
+        {
+          "name": "variable.language",
+          "match": "\\b(literally|whichis|seriously|overthinking|call|so about|worth it$|positive vibes$|negative vibes$|thats it sih$)\\b"
+        },
+        {
+          "name": "entity.name.function",
+          "match": "\\b(spill)\\b"
+        },
+        {
+          "name": "variable.other",
+          "match": "\\b(itu|gak|lebih gede|lebih kecil|lebih gede sama dengan|lebih kecil sama dengan)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.jaksel",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.jaksel",
+          "match": "\\\\."
+        }
+      ]
+    }
+  }
+}
