@@ -1,6 +1,6 @@
 # jaksel-language-support for Visual Studio Code
 
-Visual Studio Code extension for supporting jaksel-language coding experience.
+Visual Studio Code extension for supporting [jaksel-language](https://github.com/RioChndr/jaksel-language) coding experience.
 
 ## Features
 
@@ -15,3 +15,7 @@ Visual Studio Code extension for supporting jaksel-language coding experience.
 - Function declaration: `so` or `so about`
 - Asynchronous function declaration: `overthinking` or `ovt`
 - Error handling: `trust` or `issue`
+
+## Preview
+
+![preview](https://github.com/ngupuk/vscode-jaksel-language-support/raw/main/icon/preview.png)
