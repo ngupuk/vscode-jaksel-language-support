@@ -18,9 +18,6 @@
   "activationEvents": [
     "onLanguage:jaksel"
   ],
-  "scripts": {
-    "vscode:prepublish": "vsce package"
-  },
   "contributes": {
     "languages": [
       {
