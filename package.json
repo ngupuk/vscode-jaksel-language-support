@@ -3,7 +3,7 @@
   "displayName": "Jaksel Language Support",
   "description": "Syntax highlighter, code snippets, code formatter for Jaksel Language",
   "publisher": "ngupuk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "icon/logo.png",
   "main": "./extension.js",
   "engines": {
