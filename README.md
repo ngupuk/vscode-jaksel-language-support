@@ -18,4 +18,5 @@ Visual Studio Code extension for supporting [jaksel-language](https://github.com
 
 ## Preview
 
-![preview](https://github.com/ngupuk/vscode-jaksel-language-support/raw/main/icon/preview.png)
+![preview](https://user-images.githubusercontent.com/19171729/196026510-8d945bab-8eb9-4ea7-a9af-1061e7a7d33b.gif)
+
